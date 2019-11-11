@@ -28,6 +28,7 @@ public class VariablenBasics {
 		System.out.println(Integer.MIN_VALUE);
 		System.out.println(Integer.MAX_VALUE);
 		
+
 		long grosse_zahl = 1234567890;
 		System.out.println(grosse_zahl);
 		System.out.println(Long.MIN_VALUE);
@@ -49,7 +50,6 @@ public class VariablenBasics {
 		String text = "abcdefg";
 		System.out.println(text);
 		//
-				
 		
 		
 				
