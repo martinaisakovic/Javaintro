@@ -32,13 +32,13 @@ public class VariablenBasics {
 		System.out.println(Long.MIN_VALUE);
 		System.out.println(Long.MAX_VALUE);
 		
-		float kleiner_komma_zahl = 123.456F;
-		Syistem.out.println(kleine-komma_zahl);
+		float kleine_komma_zahl = 123.456F;
+		System.out.println(kleine_komma_zahl);
 		System.out.println(Float.MIN_VALUE);
 		System.out.println(Float.MAX_VALUE);
 		
 		double grosse_komma_zahl = 123456789.0987654321;
-		Syistem.out.println(grosse-komma_zahl);
+		System.out.println(grosse_komma_zahl);
 		System.out.println(Double.MIN_VALUE);
 		System.out.println(Double.MAX_VALUE);
 				
