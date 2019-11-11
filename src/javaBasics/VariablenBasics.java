@@ -48,6 +48,7 @@ public class VariablenBasics {
 		
 		String text = "abcdefg";
 		System.out.println(text);
+		//
 				
 		
 		
