@@ -18,6 +18,7 @@ public class VariablenBasics {
 				
 		
 		short ganz_kleine_zahl = 120;
+		System.out.println(ganz_kleine_zahl);
 		System.out.println(Short.MIN_VALUE);
 		System.out.println(Short.MAX_VALUE);
 		
