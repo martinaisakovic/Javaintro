@@ -16,7 +16,7 @@ public class SchleifenBasics {
 	}
 		for (;3<4;)
 			System.out.println("HuiHui");
-			
+	
 		
 
 		
