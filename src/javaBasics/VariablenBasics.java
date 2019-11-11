@@ -41,7 +41,7 @@ public class VariablenBasics {
 		System.out.println(grosse_komma_zahl);
 		System.out.println(Double.MIN_VALUE);
 		System.out.println(Double.MAX_VALUE);
-		//
+		
 				
 		
 		
