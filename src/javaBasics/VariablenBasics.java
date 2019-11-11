@@ -43,6 +43,11 @@ public class VariablenBasics {
 		System.out.println(Double.MIN_VALUE);
 		System.out.println(Double.MAX_VALUE);
 		
+		char ein_zeichen = 'a';
+		System.out.println(ein_zeichen);
+		
+		String text = "abcdefg";
+		System.out.println(text);
 				
 		
 		
