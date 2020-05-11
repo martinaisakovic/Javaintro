@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.osgi_3.15.0.v20190830-1434.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.osgi_3.15.0.v20190830-1434.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.core.commands_3.9.500.v20190805-1157.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.core.commands_3.9.500.v20190805-1157.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.equinox.common_3.10.500.v20190815-1535.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.equinox.common_3.10.500.v20190815-1535.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.equinox.registry_3.8.500.v20190714-1850.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.equinox.registry_3.8.500.v20190714-1850.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.core.runtime_3.16.0.v20190823-1314.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.core.runtime_3.16.0.v20190823-1314.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.text_3.9.0.v20190826-1019.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.text_3.9.0.v20190826-1019.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.swt.win32.win32.x86_64_3.112.0.v20190904-0609.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.swt.win32.win32.x86_64_3.112.0.v20190904-0609.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.jface_3.17.0.v20190820-1444.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.jface_3.17.0.v20190820-1444.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.jface.text_3.15.300.v20190819-0725.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.jface.text_3.15.300.v20190819-0725.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.ui.workbench_3.116.0.v20190826-1428.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.ui.workbench_3.116.0.v20190826-1428.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/com.ibm.icu_64.2.0.v20190507-1337.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/com.ibm.icu_64.2.0.v20190507-1337.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.ui.forms_3.8.100.v20190625-1825.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.ui.forms_3.8.100.v20190625-1825.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.osgi_3.15.200.v20200214-1600.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.osgi_3.15.200.v20200214-1600.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.core.commands_3.9.700.v20191217-1850.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.core.commands_3.9.700.v20191217-1850.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.equinox.common_3.11.0.v20200206-0817.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.equinox.common_3.11.0.v20200206-0817.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.equinox.registry_3.8.700.v20200121-1457.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.equinox.registry_3.8.700.v20200121-1457.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.core.runtime_3.17.100.v20200203-0917.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.core.runtime_3.17.100.v20200203-0917.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.text_3.10.100.v20200217-1239.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.text_3.10.100.v20200217-1239.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.swt.win32.win32.x86_64_3.114.0.v20200304-0601.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.swt.win32.win32.x86_64_3.114.0.v20200304-0601.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.jface_3.19.0.v20200218-1607.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.jface_3.19.0.v20200218-1607.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.jface.text_3.16.200.v20200218-0828.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.jface.text_3.16.200.v20200218-0828.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.ui.workbench_3.118.0.v20200222-0719.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ACER/.p2/pool/plugins/org.eclipse.ui.forms_3.9.0.v20200213-1442.jar" sourcepath="C:/Users/ACER/.p2/pool/plugins/org.eclipse.ui.forms_3.9.0.v20200213-1442.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
