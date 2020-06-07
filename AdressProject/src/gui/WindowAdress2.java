@@ -10,7 +10,7 @@ import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 
-public class WindowAdress {
+public class WindowAdress2 {
 
 	protected Shell shlAdressapplication;
 	private Text vornameTF;
@@ -38,7 +38,7 @@ public class WindowAdress {
 	 */
 	public static void main(String[] args) {
 		try {
-			WindowAdress window = new WindowAdress();
+			WindowAdress2 window = new WindowAdress2();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -145,16 +145,9 @@ public class WindowAdress {
 		btnListeAusgeben = new Button(shlAdressapplication, SWT.NONE);
 		btnListeAusgeben.setBounds(290, 170, 97, 25);
 		btnListeAusgeben.setText("Liste ausgeben");
-		System.out.println(addressList); {
-		
-		Button btnListeAusgeben = new Button(shlAdressapplication, SWT.NONE);
-		btnListeAusgeben.addSelectionListener(new SelectionAdapter() {
-		@Override
-		public void widgetSelected(SelectionEvent e) {
-			System.out.println(addressList);
-		}
-	});
-		
+		System.out.println(addressList); }
+
+	}
 	public Text getVornameTF() {
 		return vornameTF;
 	}
