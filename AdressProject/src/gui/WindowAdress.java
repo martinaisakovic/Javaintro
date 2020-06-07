@@ -27,6 +27,10 @@ public class WindowAdress {
 	private Label nachnameL;
 	private Label vornameL;
 	private Composite composite;
+	private Button btnListeAusgeben;
+	//
+	ArrayListe<Address> addressList = new ArrayList<Address>();
+	
 
 	/**
 	 * Launch the application.
@@ -59,12 +63,14 @@ public class WindowAdress {
 	 */
 	protected void createContents() {
 		shlAdressapplication = new Shell();
+		shlAdressapplication.setSize(459,300);
+		shlAdressapplication.setText("AddressApplication");
 		
 		vornameTF = new Text(shlAdressapplication, SWT.BORDER);
 		vornameTF.setBounds(81, 7, 76, 21);
 		
 		nachnameL = new Label(shlAdressapplication, SWT.NONE);
-		nachnameL.setBounds(10, 44, 65, 15);
+		nachnameL.setBounds(10, 44, 76, 21);
 		nachnameL.setText("Nachname");
 		
 		nachnameTF = new Text(shlAdressapplication, SWT.BORDER);
@@ -96,7 +102,33 @@ public class WindowAdress {
 		
 		btnSpeichern = new Button(shlAdressapplication, SWT.NONE);
 		btnSpeichern.setBounds(23, 207, 75, 25);
-		btnSpeichern.setText("Speichern");
+		btnSpeichern.setText("Speichern"); {
+			
+			Button btnSpeichern = new Button(shlAdressapplication, SWT.NONE);
+			btnSpeichern.addSelectionListener(new SelectionAdapter() {
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				//
+				Address a;
+				//
+				a.setVorname(getVornameTF().getText());
+				a.setNachname(getNachnameTF().getText());
+				a.setOrt(getOrtTF().getText());
+				a.setStrasse(getStrasseTF().getText());
+				a.setPlz(getPlzTF().getText());
+				//
+				addressList.add(a);
+				//
+				getVornameTF().setText("");
+				getNachnameTF().setText("");
+				getOrtTF().setText("");
+				getStrasseTF().setText("");
+				getPlzTF().setText("");
+				
+				
+			}
+		});
+		
 		
 		btnLadenVonDatei = new Button(shlAdressapplication, SWT.NONE);
 		btnLadenVonDatei.setBounds(144, 207, 97, 25);
@@ -109,6 +141,11 @@ public class WindowAdress {
 		vornameL = new Label(shlAdressapplication, SWT.NONE);
 		vornameL.setBounds(10, 13, 55, 15);
 		vornameL.setText("Vorname");
+		
+		btnListeAusgeben = new Button(shlAdressapplication, SWT.NONE);
+		btnListeAusgeben.setBounds(290, 170, 97, 25);
+		btnListeAusgeben.setText("Liste ausgeben");
+		System.out.println(addressList); }
 
 	}
 	public Text getVornameTF() {
@@ -152,5 +189,8 @@ public class WindowAdress {
 	}
 	public Shell getShlAdressapplication() {
 		return shlAdressapplication;
+	}
+	public Button getBtnListeAusgeben() {
+		return btnListeAusgeben;
 	}
 }
